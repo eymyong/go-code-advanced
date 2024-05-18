@@ -1,0 +1,14 @@
+{
+    "art": {
+      "password": "1234",
+      "sex": "male"
+    },
+    "mond": {
+      "password": "foobar",
+      "sex": "male"
+    },
+    "yong": {
+      "password": "admin",
+      "sex": "female"
+    }
+  }

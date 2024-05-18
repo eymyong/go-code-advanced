@@ -1,0 +1,67 @@
+package array
+
+import "fmt"
+
+func ArrayAndMap() {
+
+	// ถ้าเราใส่เลข ตัวเลข ลงใน [] ตอนประกาศตัวแปร array มันจะกำหนด size ตามตัวเลขที่เราใส่
+	a := [][2]int{
+		{3, 4}, // กรณีนี้คือ array int ในสุดจะมีสมาชิกได้แค่ 2 ตัว
+		{8, 9},
+		{10, 12},
+	}
+	_ = a
+	mapA := make(map[int]int)
+	/*
+		   TODO: transfer `a` to `map[int]int`
+				 key will come from number in **inner** array of int index 0
+				 and value will come from number in **inner** array of int index 1
+	*/
+	fmt.Println(mapA) // {3:4,8:9,10:12}
+
+    ; //=========================================================================================
+
+
+
+	arrKey := []int{}
+	/*
+	   TODO: collect the key from `mapA` to `arrKey`
+	*/
+
+	fmt.Println(arrKey) // [3,8,10]
+
+	arrVal := []int{}
+	/*
+	   TODO: collect the value from `mapA` to `arrVal`
+	*/
+	fmt.Println(arrVal) // [4,9,12]
+
+	b := [][2]int{}
+
+	/*
+	   TODO: insert key and value from `mapA` into `b` to be the same as `a` (it's fine to incorrect sequence)
+	*/
+
+	fmt.Println(b)
+
+    ; //============================================================================
+
+
+
+
+	c := [][2]int{}
+
+	/*
+	   TODO: use `arrKey` and `arrVal` to insert to `c` to be the same as `a`
+	*/
+
+	fmt.Println(c)
+
+	var pointers []*[2]int
+	_ = pointers
+	/*
+		Collect points from a
+	*/
+}
+
+//===============================================================================
